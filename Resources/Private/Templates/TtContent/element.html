@@ -1,0 +1,44 @@
+<f:if condition="{data_tx_heaccordion_elements}">
+    <ul>
+        <f:for each="{data_tx_heaccordion_elements}" as="data_item">
+            <li>
+                <f:if condition="{data_item.data.tx_heaccordion_title}">
+    {data_item.data.tx_heaccordion_title}<br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_heaccordion_subtitle}">
+    <f:format.nl2br>{data_item.data.tx_heaccordion_subtitle}</f:format.nl2br><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_heaccordion_description}">
+    <f:format.html parseFuncTSPath="lib.parseFunc_RTE">{data_item.data.tx_heaccordion_description}</f:format.html><br />
+</f:if>
+
+<f:if condition="{data_item.data_tx_heaccordion_media}">
+    <f:for each="{data_item.data_tx_heaccordion_media}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_item.data_tx_heaccordion_preview_image}">
+    <f:for each="{data_item.data_tx_heaccordion_preview_image}" as="file">
+        <f:image image="{file}" alt="{file.alternative}" title="{file.title}" width="200" /><br />
+        {file.description} / {file.identifier}<br />
+    </f:for>
+</f:if>
+
+<f:if condition="{data_item.data.tx_heaccordion_link}">
+    <f:link.page pageUid="{data_item.data.tx_heaccordion_link}">{data_item.data.tx_heaccordion_link}</f:link.page><br />
+</f:if>
+
+<f:if condition="{data_item.data.tx_heaccordion_linktext}">
+    {data_item.data.tx_heaccordion_linktext}<br />
+</f:if>
+
+
+            </li>
+        </f:for>
+    </ul>
+</f:if>
+

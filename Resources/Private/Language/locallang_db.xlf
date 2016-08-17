@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.0">
+  <file source-language="en" datatype="plaintext" original="messages" date="2016-08-12T06:49:41+02:00" product-name="he_accordion">
+    <header/>
+    <body>
+      <trans-unit id="tx_heaccordion_elements" xml:space="preserve">
+        <source>tx_heaccordion_elements</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_title" xml:space="preserve">
+        <source>Titel</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_subtitle" xml:space="preserve">
+        <source>Untertitel</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_description" xml:space="preserve">
+        <source>Beschreibung</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_media" xml:space="preserve">
+        <source>Medien (Grafik/Video)</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_preview_image" xml:space="preserve">
+        <source>Vorschaubild</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_link" xml:space="preserve">
+        <source>Link</source>
+      </trans-unit>
+      <trans-unit id="tx_heaccordion_elements.tx_heaccordion_linktext" xml:space="preserve">
+        <source>Linkbeschriftung</source>
+      </trans-unit>
+      <trans-unit id="tt_content.tx_heaccordion_elements" xml:space="preserve">
+        <source>Akkordeon-Elemente</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.heaccordion_akkordeon" xml:space="preserve">
+        <source>accordion</source>
+      </trans-unit>
+      <trans-unit id="tt_content.CType.heaccordion_element" xml:space="preserve">
+        <source>Element</source>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
